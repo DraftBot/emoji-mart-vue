@@ -192,7 +192,7 @@ export class EmojiIndex {
         }
       }
       if (this._customCategory.emojis.length) {
-        this._categories.push(this._customCategory)
+        this._categories.unshift(this._customCategory)
       }
     }
 
