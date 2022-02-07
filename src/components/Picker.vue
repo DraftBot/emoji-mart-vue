@@ -82,6 +82,7 @@
           :emoji-props="emojiProps"
           :skin-props="skinProps"
           :on-skin-change="onSkinChange"
+          :show-remove-button="showRemoveButton"
         />
       </div>
     </slot>

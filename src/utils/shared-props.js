@@ -103,6 +103,10 @@ const PickerProps = {
     type: Boolean,
     default: true,
   },
+  showRemoveButton: {
+    type: Boolean,
+    default: true,
+  },
   infiniteScroll: {
     type: Boolean,
     default: true,
