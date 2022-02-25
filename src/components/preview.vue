@@ -18,7 +18,7 @@
             v-for="shortName in emojiShortNames"
             :key="shortName"
             class="emoji-mart-preview-shortname"
-            >:{{ shortName }}:</span
+            >{{ emojiData.custom ? shortName : `:${shortName}:` }}</span
           >
         </div>
         <div class="emoji-mart-preview-emoticons">
